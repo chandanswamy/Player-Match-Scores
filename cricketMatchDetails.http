@@ -1,0 +1,31 @@
+
+// GET ALL PLAYERS API
+GET http://localhost:3000/players/
+
+###
+// GET SPECIFIC PLAYER API
+GET http://localhost:3000/players/2/
+
+###
+// UPDATE SPECIFIC PLAYER API
+PUT http://localhost:3000/players/8/
+
+{
+  "playerName": "Raju"
+}
+
+###
+// GET SPECIFIC MATCH API
+GET http://localhost:3000/matches/18/
+
+###
+// GET ALL PLAYER MATCHES API
+GET http://localhost:3000/players/2/matches/
+
+###
+// GET ALL MATCH PLAYERS API
+GET http://localhost:3000/matches/10/players/
+
+###
+// GET ALL PLAYER MATCHES STATS API
+GET http://localhost:3000/players/2/playerScores/
